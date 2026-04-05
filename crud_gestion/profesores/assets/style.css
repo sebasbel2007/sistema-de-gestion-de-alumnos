@@ -1,0 +1,203 @@
+:root{
+  --bg: #f4f6f9;
+  --primary: #0056d8;
+  --accent: #007bff;
+  --danger: #e63946;
+  --success: #28a745;
+  --muted: #d9d9d9;
+  --white: #ffffff;
+  --text: #0b0b0b;
+  --font-size: 13px;
+
+.tablita{
+  width: 100%;
+  height: 200px;
+}
+
+
+html{
+  font-size: 13px;
+}
+
+#tabla-alumnos th, #tabla-alumnos td{
+  padding: 4px 6px;
+}
+.top-header input{
+  width: 180px;
+  font-size: 12px;
+}
+.btn{
+  padding:4px 6px;
+  font-size:11px;
+}
+.footer-bar .btn{
+  min-width: 110px;
+  font-size:11px;
+}
+
+
+
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; 
+  font-family: Inter, Arial, sans-serif; 
+  background:var(--bg); 
+  color:var(--text);
+  font-size: var(--font-size);
+}
+
+/* Header */
+.top-header{
+  background:var(--primary); 
+  color:#fff; 
+  padding:10px 16px;               /* MÁS CHICO */
+  display:flex; 
+  align-items:center; 
+  justify-content:space-between;
+  position:sticky; 
+  top:0; 
+  z-index:20;
+}
+.top-header h2{
+  margin:0; 
+  font-size:15px;                  /* MÁS CHICO */
+}
+.top-header input{
+  width:240px;                     /* MÁS PEQUEÑO */
+  padding:5px 8px;                 /* MÁS PEQUEÑO */
+  border-radius:6px; 
+  border:none; 
+  outline:none; 
+  font-size:13px;
+}
+
+/* Main */
+.main-area{ 
+  padding:8px;                     /* MÁS PEQUEÑO */
+  padding-bottom:70px;
+}
+
+/* Tabla */
+.table-wrapper{
+  background:var(--white); 
+  border-radius:6px;
+  border:1px solid var(--muted);
+  overflow:hidden;
+  max-height:60vh;                 /* MENOS ALTO */
+}
+
+#tabla-alumnos{ 
+  width:100%; 
+  border-collapse:collapse; 
+  table-layout: fixed;
+  font-size:13px;                  /* MÁS CHICO */
+}
+
+#tabla-alumnos thead th{
+  position:sticky; top:0;
+  background: linear-gradient(180deg,var(--primary), #1749b8);
+  color:#fff;
+  font-weight:600;
+  padding:7px;                     /* MÁS CHICO */
+  text-align:left;
+  z-index:10;
+  font-size:13px;                  /* MÁS CHICO */
+}
+#tabla-alumnos thead th:first-child{
+  width:34px; text-align:center;   /* MÁS CHICO */
+}
+
+#tabla-alumnos th, #tabla-alumnos td{
+  padding:6px 6px;                 /* MÁS CHICO */
+  border-bottom:1px solid #eee;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+/* Column widths reducidas */
+.col-nombres{ width:150px; }
+.col-apellidos{ width:140px; }
+.col-dni{ width:90px; }
+.col-email{ width:200px; }
+.col-direccion{ width:230px; }
+.col-telefono{ width:110px; }
+.col-fecha{ width:110px; }
+.col-curso{ width:120px; }
+
+
+/*----------------------------------------------------*/
+.table-wrapper{
+  max-height: 60vh;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+#tabla-alumnos{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#tabla-alumnos thead th{
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+
+
+
+
+
+/* Hover */
+.table-wrapper tbody tr:hover{
+  background:#eff5ff;
+}
+
+/* Botones de acciones más pequeños */
+.cell-acciones{
+  display:flex; 
+  gap:4px;                         /* MÁS PEQUEÑO */
+  justify-content:flex-end; 
+  align-items:center;
+}
+.btn{
+  padding:4px 6px;                 /* MÁS PEQUEÑO */
+  border-radius:4px;
+  font-weight:600;
+  font-size:12px;                 /* MÁS CHICO */
+  border:none;
+  cursor:pointer;
+}
+.btn.primary{ background:var(--accent); color:#fff; }
+.btn.danger{ background:var(--danger); color:#fff; }
+.btn.ghost{ background:transparent; color:var(--text); border:1px solid #eee; }
+
+/* Footer FIXED - más pequeño */
+.footer-bar{
+  position:fixed; 
+  left:0; right:0; bottom:0;
+  display:flex; 
+  gap:6px; 
+  justify-content:center;
+  align-items:center;
+  background:#111; 
+  color:#fff; 
+  padding:8px;                 /* MÁS PEQUEÑO */
+}
+.footer-bar .btn{
+  min-width:120px;              /* MÁS CHICO */
+  padding:6px 10px;
+  font-size:12px;
+}
+
+/* Modal (sin cambios grandes) */
+.modal{ position:fixed; inset:0; display:flex; align-items:center; justify-content:center; background:rgba(0,0,0,0.45); z-index:100; }
+.modal.hidden{ display:none; }
+.modal-content{ background:#fff; padding:14px; border-radius:6px; width:360px; max-width:95%; }
+.modal-content h3{ margin-top:0; font-size:15px; }
+
+.text-center{ text-align:center; padding:14px; color:#666; font-size:13px; }
+.cell-checkbox{ text-align:center; }

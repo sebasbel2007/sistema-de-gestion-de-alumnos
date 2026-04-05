@@ -1,0 +1,260 @@
+  :root{
+    --bg: #fbfbfb;
+    --primary: #72bbff; /* naranja del logo (ajustable) */
+    --text: #111;
+    --muted: #666;
+    --card: #fff;
+    --shadow: 0 6px 18px rgba(16,16,16,0.08);
+    --max-width: 1800px;
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    line-height:1.4;
+  }
+
+  /* login*/
+
+  /* Hero / Carousel */
+  .hero{max-width:var(--max-width); margin:40px auto; padding:10px 20px; position:relative; display:flex ;}
+  .carousel{
+    position:relative;
+    background:var(--card);
+    border-radius:12px;
+    box-shadow:var(--shadow);
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    padding:5rem; /* quitar paddings grandes */
+
+    width: 900px; /* ANCHO FIJO centrado */
+    margin: 0 auto; /* centrar */
+  }
+  .carousel-track{
+    display:flex;
+    width:100%;
+    transition:transform .4s ease;
+  }
+  .carousel-item{
+    width:100%; /* ocupa toda la vista */
+    flex-shrink: 0; /* No se achica nunca */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .carousel-content{
+    width:65%;
+    padding-right:20px;
+  }
+  .carousel-content h2{margin:0 0 8px; font-size:1.6rem}
+  .carousel-content p{margin:0 0 12px; color:var(--muted)}
+  .img-box{
+    padding: 1rem;
+    width:max-content;
+    height:max-content;
+    background:#eee;
+    border-radius:8px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#aaa;
+    font-weight:600;
+  }
+
+  .img-box img{
+    max-width:100%;
+    border-radius:6px;
+    height: 250px;
+  }
+
+  /* Carousel buttons */
+  .carousel-btn{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width:46px;
+    height:46px;
+    border-radius:10px;
+    border:0;
+    background:rgba(255,255,255,0.95);
+    box-shadow:0 6px 18px rgba(16,16,16,0.08);
+    font-size:1.6rem;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index:4;
+  }
+  .carousel-btn.left{left:12px}
+  .carousel-btn.right{right:12px}
+
+
+
+
+.login-options {
+    width: 500px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.login-options h2 {
+    display: inline-block;
+    margin: 0 40px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+.login-links {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.login-item {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    transition: background 0.2s;
+}
+
+.login-item:hover {
+    background: #f3f3f3;
+}
+
+.login-img img {
+    width: 180px;
+    height: auto;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sections */
+.tecnicaturas, .nosotros{
+  max-width:var(--max-width);
+  margin:30px auto;
+  padding:20px;
+  background:transparent;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.cards{display:flex; gap:20px; margin-top:12px}
+.card{
+  background:var(--card);
+  padding:16px;
+  border-radius:10px;
+  box-shadow:var(--shadow);
+  flex:1;
+}
+
+.card img{
+  width:100%;
+  height: 25rem;
+  border-radius:6px;
+  margin-top:12px;
+}
+
+
+
+/* Form */
+.contacto{
+  max-width:var(--max-width);
+  margin:30px auto;
+  padding:20px;
+  background:transparent;
+  align-items: center;
+  margin-left:30%;
+}
+.contacto form{display:grid; gap:12px; max-width:720px}
+.contacto label{display:flex; flex-direction:column; font-weight:600; color:var(--muted); font-size:.95rem}
+.contacto input, .contacto textarea{
+  padding:10px 12px;
+  border-radius:8px;
+  border:1px solid #e3e3e3;
+  font-family:inherit;
+}
+.checkbox{flex-direction:row; align-items:center; gap:8px}
+.form-actions{display:flex; justify-content:flex-end}
+.btn-send{
+  background:var(--primary);
+  color:#fff;
+  border:0;
+  padding:10px 18px;
+  border-radius:8px;
+  font-weight:700;
+  cursor:pointer;
+}
+
+/* Footer */
+.site-footer{margin-top:40px; padding:30px 20px; background:#fff; border-top:1px solid #f0f0f0}
+.footer-inner{max-width:var(--max-width); margin:0 auto; color:var(--muted); display:flex; flex-direction:column; gap:8px}
+
+/* Responsive */
+@media (max-width: 900px){
+  .logo-rect{right:6%; width:120px; height:240px; top:56px}
+  .carousel-content{width:55%}
+  .img-box{width:220px; height:140px}
+  .cards{flex-direction:column}
+}
+@media (max-width: 640px){
+  .header-inner{padding:12px}
+  .main-nav{display:none; position:absolute; top:64px; right:20px; background:#fff; box-shadow:var(--shadow); padding:12px; border-radius:8px; flex-direction:column}
+  .nav-toggle{display:block}
+  .logo-rect{display:none} /* ocultar logo rectangular en móviles para no tapar contenido */
+  .carousel{padding:14px}
+  .carousel-item{flex-direction:column; gap:12px}
+  .carousel-content{width:100%; padding:0}
+  .img-box{width:100%; height:160px}
+}

@@ -1,0 +1,116 @@
+  footer {
+    background-color: #022d3b;
+    color: #e9eef2;
+    padding: 40px 60px;
+    text-align: center;
+    font-family:Arial, sans-serif;
+    border-top: 3px solid #0b6c89;
+  }
+
+  /* Contenedor principal */
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  /* Logo */
+  .footer-logo {
+  background-color: #fff;
+  padding: 12px 14px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  transform: scale(1.25);   /* zoom equilibrado */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .footer-logo img {
+  height: 90px;             /* más alto */
+  width: auto;              /* mantiene proporción natural */
+  display: block;
+  object-fit: contain;      /* evita que se deforme */
+  }
+
+  /* Texto principal */
+  .footer-text {
+    max-width: 650px;
+    text-align: left;
+    margin-left: 1rem;
+  }
+
+  .footer-text h2 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #fff;
+  }
+
+  .footer-text p {
+    display: flex;
+    margin-top: 10px;
+    line-height: 1.6;
+    font-size: 1em;
+    color: #d0dce3;
+  }
+
+  .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* Línea divisoria */
+  footer hr {
+    margin: 30px auto;
+    width: 80%;
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.3);
+  }
+
+  /* Íconos sociales */
+  .social {
+    margin-left: 1 rem;
+  }
+
+  .social a {
+    margin: 0 12px;
+  }
+
+  /* Texto de derechos */
+  .footer-rights {
+    font-size: 0.9em;
+    color: #a5b6c3;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  /* 📱 Versión móvil */
+  @media (max-width: 768px) {
+    footer {
+      padding: 30px 20px;
+    }
+
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .footer-text {
+      text-align: center;
+      max-width: 100%;
+    }
+
+    .footer-text h2 {
+      font-size: 1.5em;
+    }
+
+    .footer-text p {
+      font-size: 0.95em;
+    }
+  }

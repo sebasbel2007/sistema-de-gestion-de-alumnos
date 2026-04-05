@@ -1,0 +1,159 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #e6e9ef;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+
+/* 🧾 Contenedor principal que simula una hoja */
+.hoja {
+  background: #fff;
+  width: 800px;
+  padding: 40px 50px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  position: relative;
+}
+
+/* Encabezado con 3 columnas */
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #0056b3;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+}
+
+.encabezado-centro h2 {
+  margin: 0;
+  color: #0056b3;
+  font-size: 22px;
+}
+
+.encabezado-centro h3 {
+  margin: 5px 0 0 0;
+  font-size: 18px;
+  color: #444;
+}
+
+/* Datos del alumno */
+.datos-alumno {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  font-size: 15px;
+  background: #f7f9fc;
+  border: 1px solid #d0d7e2;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+/* Tabla */
+.tabla-boletin {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: #fff;
+  font-size: 14px;
+}
+
+.tabla-boletin th, .tabla-boletin td {
+  border: 1px solid #c7c7c7;
+  padding: 8px;
+  text-align: center;
+}
+
+.tabla-boletin th {
+  background: #0056b3;
+  color: #fff;
+}
+
+.tabla-boletin tr:nth-child(even) {
+  background: #f2f5fa;
+}
+
+/* Promedio */
+.promedio {
+  text-align: right;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Firmas */
+.firmas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.firma {
+  text-align: center;
+  width: 45%;
+}
+
+.img-firma {
+  width: 160px;
+  height: auto;
+  margin-bottom: 5px;
+  opacity: 0.9;
+}
+
+/* Botón */
+.acciones {
+  text-align: center;
+  margin-top: 35px;
+}
+
+button {
+  background: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #003e80;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #777;
+  font-size: 13px;
+}
+
+/* 🖨️ Estilos para imprimir */
+@media print {
+  body {
+    background: white;
+    margin: 0;
+  }
+  .hoja {
+    box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+    padding: 0;
+  }
+  button, .acciones {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+}

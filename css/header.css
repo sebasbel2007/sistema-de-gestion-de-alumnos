@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+
+header {
+    background-color: #022d3b; /* Azul oscuro */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    position: relative;
+    height: 80px;
+  }
+
+  /* Contenedor del logo (flotante) */
+.logo {
+  position: absolute;
+  top: 50%;                 /* centro vertical */
+  left: 30px;               /* distancia desde el borde izquierdo */
+  transform: translateY(-25%); /* baja un poco el logo para que traspase el header */
+  z-index: 10;              /* sobre el header */
+}
+
+.logo-box {
+  background-color: #fff;
+  padding: 12px 14px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  transform: scale(1.25);   /* zoom equilibrado */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-box img {
+  height: 90px;             /* más alto */
+  width: auto;              /* mantiene proporción natural */
+  display: block;
+  object-fit: contain;      /* evita que se deforme */
+}
+
+
+  /* Menú a la derecha */
+  .nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+  .nav a:hover {
+    text-decoration: underline;
+  }
+
+  /* Ícono de salida */
+  .logout {
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px 8px;
+  }
+
+  .logout img {
+    height: 25px;
+  }

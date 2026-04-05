@@ -1,0 +1,98 @@
+---- NUEVA EJECUCIÓN (2025-11-13 15:38:43) ----
+POST DATA:
+Array
+(
+    [action] => guardar_notas
+    [id_curso] => 1
+    [id_materia] => 11
+    [data] => [{"id_alumno":"1","informe1":"TEA","nota1":"9","informe2":"TEA","nota2":"9"}]
+)
+
+---- NUEVA EJECUCIÓN (2025-11-13 15:46:17) ----
+POST DATA:
+Array
+(
+    [action] => guardar_notas
+    [id_curso] => 1
+    [id_materia] => 11
+    [id_profesor] => 4
+    [data] => [{"id_alumno":"1","informe1":"TEA","nota1":"9","informe2":"TEA","nota2":"9"}]
+)
+
+---- NUEVA EJECUCIÓN (2025-11-13 15:46:45) ----
+POST DATA:
+Array
+(
+    [action] => guardar_notas
+    [id_curso] => 1
+    [id_materia] => 11
+    [id_profesor] => 4
+    [data] => [{"id_alumno":"1","informe1":"TEA","nota1":"9.00","informe2":"TEA","nota2":"7.00"}]
+)
+
+---- NUEVA EJECUCIÓN (2025-11-13 15:47:14) ----
+POST DATA:
+Array
+(
+    [action] => guardar_notas
+    [id_curso] => 1
+    [id_materia] => 11
+    [id_profesor] => 4
+    [data] => [{"id_alumno":"1","informe1":"TEA","nota1":"9.00","informe2":"TEA","nota2":"10"}]
+)
+
+---- NUEVA EJECUCIÓN (2025-11-13 17:56:42) ----
+POST DATA:
+Array
+(
+    [action] => guardar_notas
+    [id_curso] => 1
+    [id_materia] => 11
+    [id_profesor] => 4
+    [data] => [{"id_alumno":"1","informe1":"TEA","nota1":"9.00","informe2":"TEA","nota2":"10.00"},{"id_alumno":"13","informe1":"TEP","nota1":"","informe2":"","nota2":""},{"id_alumno":"10","informe1":"TEA","nota1":"9.00","informe2":"TEA","nota2":"9.00"},{"id_alumno":"14","informe1":"","nota1":"","informe2":"","nota2":""},{"id_alumno":"9","informe1":"","nota1":"","informe2":"","nota2":""},{"id_alumno":"12","informe1":"TEA","nota1":"7.00","informe2":"TEA","nota2":"9.00"}]
+)
+
+---- NUEVA EJECUCIÓN (2025-11-13 20:38:57) ----
+POST DATA:
+Array
+(
+    [action] => guardar_notas
+    [id_curso] => 1
+    [id_materia] => 9
+    [id_profesor] => 3
+    [data] => [{"id_alumno":"1","informe1":"TEA","nota1":"10","informe2":"TEA","nota2":"10"}]
+)
+
+---- NUEVA EJECUCIÓN (2025-11-13 21:04:02) ----
+POST DATA:
+Array
+(
+    [action] => guardar_notas
+    [id_curso] => 1
+    [id_materia] => 10
+    [id_profesor] => 7
+    [data] => [{"id_alumno":"1","informe1":"TEA","nota1":"10.00","informe2":"TEP","nota2":"5"},{"id_alumno":"1","informe1":"TEA","nota1":"9.00","informe2":"TEA","nota2":"9.00"},{"id_alumno":"13","informe1":"","nota1":"","informe2":"","nota2":""},{"id_alumno":"10","informe1":"","nota1":"","informe2":"","nota2":""},{"id_alumno":"14","informe1":"","nota1":"","informe2":"","nota2":""},{"id_alumno":"9","informe1":"","nota1":"","informe2":"","nota2":""},{"id_alumno":"15","informe1":"","nota1":"","informe2":"","nota2":""},{"id_alumno":"12","informe1":"","nota1":"","informe2":"","nota2":""}]
+)
+
+---- NUEVA EJECUCIÓN (2025-11-13 21:04:13) ----
+POST DATA:
+Array
+(
+    [action] => guardar_notas
+    [id_curso] => 1
+    [id_materia] => 10
+    [id_profesor] => 7
+    [data] => [{"id_alumno":"1","informe1":"TEA","nota1":"10.00","informe2":"TEP","nota2":"5"}]
+)
+
+---- NUEVA EJECUCIÓN (2025-11-13 21:06:19) ----
+POST DATA:
+Array
+(
+    [action] => guardar_notas
+    [id_curso] => 1
+    [id_materia] => 9
+    [id_profesor] => 6
+    [data] => [{"id_alumno":"1","informe1":"TEA","nota1":"10.00","informe2":"TEA","nota2":"5"}]
+)
+

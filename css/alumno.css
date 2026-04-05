@@ -1,0 +1,138 @@
+/* ✅ Usa la misma .dashboard, .card, .info-box, etc */
+.dashboard {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    padding: 150px;
+
+
+}
+
+.welcome {
+    background: white;
+    border: 2px solid #0096d2;
+    border-radius: 8px;
+    padding: 14px;
+    margin-bottom: 25px;
+}
+
+.welcome h2 {
+    margin: 0;
+    font-size: 26px;
+    color: #003447;
+}
+
+.cards-grid {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-left: 13rem;
+
+}
+
+.card {
+    background: #e9edf0;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    
+}
+
+.card-header {
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.card-header.prof { background: #006c77; }
+.card-header.alum { background: #5ab0d9; }
+.card-header.curso { background: #708bbf; }
+.card-header.bole { background: #e7d18a; color: #000; }
+
+.card-header h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #006c77;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.info-box {
+    background: #cbdcff;
+    border-radius: 5px;
+    padding: 6px 10px;
+    text-align: center;
+}
+
+.info-box span {
+    font-size: 25px;
+}
+
+.info-number {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    width: 150px;
+
+}
+
+.info-number img {
+    width: 80px;
+    height: 80px;
+    margin-left: 2.5rem;
+}
+
+.info-number p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 750px) {
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* botón de boletín */
+.btn-boletin {
+    background: #4ff7d6;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.btn-boletin:hover {
+    transform: scale(1.06);
+}
+

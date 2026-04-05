@@ -1,0 +1,117 @@
+.dashboard {
+    width: 90%;
+    margin: auto;
+    padding: 200px;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+
+}
+
+.welcome {
+    background: white;
+    border: 2px solid #0096d2;
+    border-radius: 8px;
+    padding: 14px;
+    margin-bottom: 25px;
+}
+
+.welcome h2 {
+    margin: 0;
+    font-size: 26px;
+    color: #003447;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background: #e9edf0;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.card-header.prof { background: #003077; }
+.card-header.alum { background: #5ab0d9; }
+.card-header.curso { background: #5c0099; }
+.card-header.bole { background: #b38a03;  }
+.card-header.salones { background: #245c19;  }
+.card-header.boletines { background: #ff4f4f;  }
+
+
+
+.card-header h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #006c77;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.info-box {
+    background: #cbdcff;
+    border-radius: 5px;
+    padding: 6px 10px;
+    text-align: center;
+}
+
+.info-box span {
+    font-size: 13px;
+}
+
+.info-number {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    width: 150px;
+
+}
+
+.info-number img {
+    width: 32px;
+    height: 32px;
+    margin-left: 3.5rem;
+}
+
+.info-number p {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 750px) {
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+}

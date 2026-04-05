@@ -1,0 +1,170 @@
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 4
+    [id_curso] => 1
+    [data] => [{"id_alumno":"1","informe1":"TEA","nota1":"9","informe2":"TEA","nota2":"9"}]
+)
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 4
+    [id_curso] => 1
+    [data] => [{"id_alumno":"13","informe1":"TEA","nota1":"9","informe2":"TEA","nota2":"9"}]
+)
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 4
+    [id_curso] => 1
+    [id_materia] => null
+    [data] => [{"id_alumno":"10","informe1":"TEA","nota1":"8","informe2":"TEA","nota2":"9"}]
+)
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 4
+    [id_curso] => 1
+    [id_materia] => null
+    [data] => [{"id_alumno":"10","informe1":"TEA","nota1":"8","informe2":"TEA","nota2":"9"}]
+)
+[2025-11-13 14:40:47] POST:
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 4
+    [id_curso] => 1
+    [id_materia] => null
+    [data] => [{"id_alumno":"10","informe1":"TEA","nota1":"9","informe2":"TEA","nota2":"9"}]
+)
+
+[2025-11-13 14:40:55] POST:
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 4
+    [id_curso] => 1
+    [id_materia] => null
+    [data] => [{"id_alumno":"14","informe1":"TEP","nota1":"2","informe2":"","nota2":""}]
+)
+
+[2025-11-13 14:40:56] POST:
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 4
+    [id_curso] => 1
+    [id_materia] => null
+    [data] => [{"id_alumno":"14","informe2":"","nota2":""}]
+)
+
+[2025-11-13 14:40:57] POST:
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 4
+    [id_curso] => 1
+    [id_materia] => null
+    [data] => [{"id_alumno":"14","informe2":"","nota2":""}]
+)
+
+[2025-11-13 14:41:02] POST:
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 4
+    [id_curso] => 1
+    [id_materia] => null
+    [data] => [{"id_alumno":"14","informe2":"TEA","nota2":"10"}]
+)
+
+[2025-11-13 14:41:44] POST:
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 4
+    [id_curso] => 1
+    [id_materia] => null
+    [data] => [{"id_alumno":"1","informe1":"TEA","nota1":"10","informe2":"TEA","nota2":"10"}]
+)
+
+[2025-11-13 15:00:53] POST:
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 4
+    [id_curso] => 1
+    [id_materia] => 11
+    [data] => [{"id_alumno":"10","informe1":"TEA","nota1":"9","informe2":"TEA","nota2":"9"}]
+)
+
+[2025-11-13 16:14:58] POST:
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 4
+    [id_curso] => 1
+    [id_materia] => 11
+    [data] => [{"id_alumno":"12","informe1":"TEA","nota1":"7","informe2":"TEA","nota2":"9"}]
+)
+
+[2025-11-13 17:22:39] POST:
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 5
+    [id_curso] => 1
+    [id_materia] => 10
+    [data] => [{"id_alumno":"1","informe1":"TEA","nota1":"10","informe2":"TEA","nota2":"10"}]
+)
+
+[2025-11-13 20:32:37] POST:
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 4
+    [id_curso] => 1
+    [id_materia] => 11
+    [data] => [{"id_alumno":"14","informe1":"TEP","nota1":"2","informe2":"TEP","nota2":"4"}]
+)
+
+[2025-11-13 20:43:31] POST:
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 6
+    [id_curso] => 1
+    [id_materia] => 9
+    [data] => [{"id_alumno":"1","informe1":"TEA","nota1":"10","informe2":"","nota2":""},{"id_alumno":"13","informe1":"","nota1":"","informe2":"","nota2":""},{"id_alumno":"10","informe1":"","nota1":"","informe2":"","nota2":""},{"id_alumno":"14","informe1":"","nota1":"","informe2":"","nota2":""},{"id_alumno":"9","informe1":"","nota1":"","informe2":"","nota2":""},{"id_alumno":"15","informe1":"","nota1":"","informe2":"","nota2":""},{"id_alumno":"12","informe1":"","nota1":"","informe2":"","nota2":""}]
+)
+
+[2025-11-13 20:43:41] POST:
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 6
+    [id_curso] => 1
+    [id_materia] => 9
+    [data] => [{"id_alumno":"1","informe2":"TEA","nota2":""}]
+)
+
+[2025-11-13 20:43:48] POST:
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 6
+    [id_curso] => 1
+    [id_materia] => 9
+    [data] => [{"id_alumno":"1","nota2":"9"}]
+)
+
+[2025-11-13 21:03:15] POST:
+Array
+(
+    [action] => guardar_notas
+    [id_profesor] => 7
+    [id_curso] => 1
+    [id_materia] => 10
+    [data] => [{"id_alumno":"1","informe1":"TEA","nota1":"9","informe2":"TEA","nota2":"9"}]
+)
+
